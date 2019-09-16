@@ -8,7 +8,9 @@ class DOMValidator
     /**
      * @var int
      */
+    
     public $feedErrors = 0;
+    
     /**
      * Formatted libxml Error details
      *
@@ -48,6 +50,7 @@ class DOMValidator
         libxml_clear_errors();
         return $result;
     }
+    
     /**
      * Validate Incoming Feeds against Listing Schema
      *
